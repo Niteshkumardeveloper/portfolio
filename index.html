@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitesh Kumar | AI Portfolio</title>
+  <meta
+    name="description"
+    content="Nitesh Kumar portfolio featuring AI, machine learning, deep learning, and medical imaging projects with modern animated design."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="preloader" id="preloader">
+    <div class="preloader-core"></div>
+    <p>Loading portfolio...</p>
+  </div>
+
+  <div class="page-noise"></div>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+  <div class="page-glow glow-three"></div>
+  <div class="particle-field" id="particle-field" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand-button" href="#home" aria-label="Go to home">
+        <span>NK</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-cta" href="#contact"> Talk</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="theme-toggle-track"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <aside class="hero-panel glass-card reveal">
+          <div class="hero-panel-glow"></div>
+          <figure class="hero-photo">
+            <img src="./DSC05951@3x.jpg" alt="Nitesh Kumar portrait" loading="eager" decoding="async">
+          </figure>
+          <div class="hero-profile-copy">
+            <h2>NITESH PANDEY</h2>
+            <p>
+              Computer Science Engineer  focused on AI, machine
+              learning, and medical imaging and MERN STACK. I like turning ideas into useful
+              technical work.
+            </p>
+          </div>
+          <div class="panel-head">
+            <span class="section-badge subtle">
+              <span class="badge-dot"></span>
+              <span>Profile Snapshot</span>
+            </span>
+            <h2>Entry-level AI Role & MERN Stack Developer</h2>
+          </div>
+          <p>
+            I am looking for opportunities worldwide where I can use my skills in Artificial Intelligence (AI), Machine Learning (ML), and Image Intelligence to build real-world products and work on innovative, research-driven projects.
+
+          </p>
+          <div class="hero-spotlight">
+            <div class="spotlight-line">
+              <span>Primary Domain</span>
+              <strong>AI + Healthcare Imaging</strong>
+            </div>
+            <div class="spotlight-line">
+              <span>Current Goal</span>
+              <strong>Build production-ready ML workflows</strong>
+            </div>
+          </div>
+          <div class="mini-grid">
+            <div class="mini-card">
+              <span>Education</span>
+              <strong>B.Tech CSE (AI)</strong>
+            </div>
+            <div class="mini-card">
+              <span>Location</span>
+              <strong>Bhagalpur, Bihar</strong>
+            </div>
+            <div class="mini-card">
+              <span>Core Tools</span>
+              <strong>Python, OpenCV, TensorFlow</strong>
+            </div>
+            <div class="mini-card">
+              <span>Seeking</span>
+              <strong>Internships & entry-level roles</strong>
+            </div>
+          </div>
+          <div class="hero-panel-footer">
+            <div class="footer-metric">
+              <span>Project Focus</span>
+              <strong>Diagnosis, detection, classification, MERN STACK</strong>
+            </div>
+            <div class="footer-metric">
+              <span>Preferred Stack</span>
+              <strong>Python / TensorFlow / OpenCV</strong>
+            </div>
+          </div>
+        </aside>
+
+        <div class="hero-copy reveal">
+          <div class="hero-topline">
+            <span class="status-pill">
+              <span class="status-dot"></span>
+              Available for internships and entry-level roles
+            </span>
+            <span class="hero-location"></span>
+          </div>
+          <p class="eyebrow"><span id="eyebrow-text"></span><span class="eyebrow-cursor"></span></p>
+          <h1 class="hero-title">
+            <span class="hero-title-name" data-text="NITESH PANDEY"></span>
+            <span class="hero-title-animated">
+              <span id="hero-typed-text" class="hero-typed-text"></span>
+              <span class="hero-typed-cursor"></span>
+            </span>
+          </h1>
+          <p class="hero-subtitle">
+            I am a Computer Science Engineering student specializing in AI,
+            focused on deep learning, medical imaging, and practical machine
+            learning solutions.
+          </p>
+          <div class="typewriter-card">
+            <span class="typewriter-label">Live Focus</span>
+            <p class="typewriter-line">
+            <span id="typewriter-text"></span>
+            <span class="typewriter-cursor"></span>
+            </p>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore Projects</a>
+            <a class="button button-secondary" href="#contact">Contact Me</a>
+          </div>
+          <div class="hero-highlights">
+            <span>Deep Learning</span>
+            <span>Medical Imaging</span>
+            
+            <span>Model Evaluation</span>
+          </div>
+          <div class="stats-grid">
+            <article class="stat-card">
+              <strong>8.70</strong>
+              <span>CGPA</span>
+            </article>
+            <article class="stat-card">
+              <strong>2026</strong>
+              <span>Graduation</span>
+            </article>
+            <article class="stat-card">
+              <strong>3+</strong>
+              <span>Core AI Projects</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="section-badge">
+            <span class="badge-dot"></span>
+            <span>About Me</span>
+          </div>
+          <h2>Building from research, data, and image intelligence.</h2>
+          <p>
+            Motivated and detail-oriented engineering student with a strong
+            foundation in artificial intelligence, machine learning, and
+            image intelligence. I enjoy solving challenging problems and
+            turning experiments into useful applications.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card about-card reveal">
+            <h3>Objective</h3>
+            <p>
+              Seeking an entry-level role where I can apply my technical skills,
+              problem-solving ability, and passion for learning to contribute to
+              innovative projects and organizational growth.
+            </p>
+          </article>
+          <article class="glass-card about-card reveal">
+            <h3>Education</h3>
+            <p>Bihar Engineering University, Patna</p>
+            <p>B.Tech in Computer Science Engineering (AI)</p>
+            <p>July 2022 - June 2026</p>
+            <p>CGPA: 8.70/10</p>
+          </article>
+          <article class="glass-card about-card reveal">
+            <h3>Focus Areas</h3>
+            <p>
+              Deep learning, medical imaging, image preprocessing, model
+              evaluation, and dataset optimization, Full Stack Developer.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="section-badge">
+            <span class="badge-dot"></span>
+            <span>Skills</span>
+          </div>
+          <h2>Technical strengths across code, AI, and tooling.</h2>
+          <p>
+            A practical toolkit for developing, training, evaluating, and
+            presenting machine learning solutions.
+          </p>
+        </div>
+
+        <div class="skills-layout">
+          <article class="glass-card skill-panel reveal">
+            <h3>Core Skills</h3>
+            <div class="skill-bars">
+              <div class="skill-row">
+                <div class="skill-meta">
+                  <span>Python</span>
+                  <span>88%</span>
+                </div>
+                <div class="skill-track"><span data-width="88%"></span></div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-meta">
+                  <span>Machine Learning</span>
+                  <span>82%</span>
+                </div>
+                <div class="skill-track"><span data-width="82%"></span></div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-meta">
+                  <span>Artificial intelligence </span>
+                  <span>79%</span>
+                </div>
+                <div class="skill-track"><span data-width="79%"></span></div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-meta">
+                  <span>C++ programming </span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-track"><span data-width="76%"></span></div>
+              </div>
+            </div>
+          </article>
+
+          <div class="skills-cloud-wrap">
+            <article class="glass-card tag-panel reveal">
+              <h3>Programming</h3>
+              <div class="tag-cloud">
+                <span>Python</span>
+                <span>C</span>
+                <span>C++</span>
+              </div>
+            </article>
+            <article class="glass-card tag-panel reveal">
+              <h3>AI & Data</h3>
+              <div class="tag-cloud">
+                <span>Machine Learning</span>
+                <span>Artificial Intelligence</span>
+                <span>Image Intelligence</span>
+                <span>Deep Learning</span>
+                <span>Predictive Analysis</span>
+              </div>
+            </article>
+            <article class="glass-card tag-panel reveal">
+              <h3>Tools</h3>
+              <div class="tag-cloud">
+                <span>TensorFlow</span>
+                <span>PyTorch</span>
+                <span>OpenCV</span>
+                <span>Jupyter Notebook</span>
+                <span>Google Colab</span>
+                <span>VS Code</span>
+                <span>GitHub</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="section-badge">
+            <span class="badge-dot"></span>
+            <span>Experience</span>
+          </div>
+          <h2>Hands-on work in medical imaging and intelligent diagnosis.</h2>
+          <p>
+            Experience centered around image-based healthcare solutions using
+            machine learning and deep learning techniques.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-line"></div>
+            <div class="timeline-dot current"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-period">Dec 2025 - Jan 2026</span>
+              <h3>Jilo Health AI</h3>
+              <p class="timeline-location">Patna</p>
+              <p>
+                Developed an AI-based solution for image-based disease diagnosis
+                using machine learning and deep learning.
+              </p>
+              <ul>
+                <li>Built workflows for disease detection and classification from medical images</li>
+                <li>Performed image preprocessing and feature extraction</li>
+                <li>Evaluated performance with accuracy metrics and confusion matrix</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-line"></div>
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-period">Jun 2025 - Jul 2025</span>
+              <h3>IIIT Bhagalpur</h3>
+              <p class="timeline-location">Bhagalpur</p>
+              <p>
+                Worked on tuberculosis detection from chest X-rays using deep
+                learning techniques for early and accurate diagnosis.
+              </p>
+              <ul>
+                <li>Applied resizing, normalization, and noise reduction</li>
+                <li>Designed CNN-based models for classification</li>
+                <li>Evaluated using accuracy, precision, recall, and confusion matrix</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="section-badge">
+            <span class="badge-dot"></span>
+            <span></span>
+          </div>
+          <h2>Featured projects in AI and deep learning.</h2>
+          <p>
+            A selection of projects that highlight model development, image
+            processing, and practical machine learning thinking.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="glass-card project-card reveal">
+            <div class="project-top">
+              <div class="project-icon cyan">AI</div>
+              <span class="project-arrow">-></span>
+            </div>
+            <h3>Image-Based Disease Diagnosis</h3>
+            <p>
+              An AI-based system for disease diagnosis from eye, face, and nail
+              images using deep learning workflows.
+            </p>
+            <div class="project-list">
+              <span>Image preprocessing</span>
+              <span>Model training</span>
+              <span>Performance evaluation</span>
+              <span>Hyperparameter tuning</span>
+            </div>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>PyTorch</span>
+              <span>OpenCV</span>
+            </div>
+          </article>
+
+          <article class="glass-card project-card reveal">
+            <div class="project-top">
+              <div class="project-icon blue">XR</div>
+              <span class="project-arrow">-></span>
+            </div>
+            <h3>Tuberculosis Detection from Chest X-Rays</h3>
+            <p>
+              A deep learning system that classifies chest X-ray images as
+              tuberculosis-positive or normal with a reliable evaluation flow.
+            </p>
+            <div class="project-list">
+              <span>Noise reduction</span>
+              <span>CNN classification</span>
+              <span>Metric evaluation</span>
+              <span>Medical imaging workflow</span>
+            </div>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>PyTorch</span>
+              <span>OpenCV</span>
+            </div>
+          </article>
+
+          <article class="glass-card project-card reveal">
+            <div class="project-top">
+              <div class="project-icon purple">PL</div>
+              <span class="project-arrow">-></span>
+            </div>
+            <h3>Potato Disease Classification</h3>
+            <p>
+              A CNN-based model trained on the PlantVillage dataset to classify
+              potato leaf diseases accurately from images.
+            </p>
+            <div class="project-list">
+              <span>Dataset training</span>
+              <span>Image classification</span>
+              <span>Prediction workflow</span>
+              <span>Model evaluation</span>
+            </div>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>PlantVillage</span>
+              <span>TensorFlow</span>
+              <span>Jupyter</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="glass-card callout reveal">
+          <div class="callout-copy">
+            <h3>Want to explore more work?</h3>
+            <p>
+              I can also add live project links, GitHub repositories, a resume
+              download button, and deployment-ready contact integration.
+            </p>
+          </div>
+          <a class="button button-secondary" href="#contact">Start a Conversation</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="section-badge">
+            <span class="badge-dot"></span>
+            <span>Get In Touch</span>
+          </div>
+          <h2>Open to internships, entry-level roles, and collaborations.</h2>
+          <p>
+            If you have an opportunity in AI, machine learning, or software
+            engineering, I would love to connect.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-stack">
+            <article class="glass-card contact-info reveal">
+              <h3>Email</h3>
+              <a href="mailto:niteshkrbgp8@gmail.com">niteshkrbgp8@gmail.com</a>
+            </article>
+            <article class="glass-card contact-info reveal">
+              <h3>Phone</h3>
+              <a href="tel:+917992439381">+91 7992439381</a>
+            </article>
+            <article class="glass-card contact-info reveal">
+              <h3>Location</h3>
+              <p>Bhagalpur, Bihar</p>
+            </article>
+            <article class="glass-card contact-info reveal">
+              <h3>Certifications</h3>
+              <p>AI diagnosis, TB detection, NPTEL C++, NPTEL OS</p>
+            </article>
+          </div>
+
+          <article class="glass-card contact-form-card reveal">
+            <h3>Send a Message</h3>
+            <form
+              id="contact-form"
+              class="contact-form"
+              action="https://formsubmit.co/niteshkrbgp8@gmail.com"
+              method="POST"
+              novalidate
+            >
+              <input type="hidden" name="_subject" value="Portfolio Contact Message">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <label>
+                <span>Name</span>
+                <input type="text" id="name" name="name" placeholder="Your name">
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com">
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your opportunity or project"></textarea>
+              </label>
+              <div id="form-status" class="form-status" aria-live="polite"></div>
+              <button class="button button-primary submit-button" type="submit">
+                <span>Send Message</span>
+              </button>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-shell">
+      <p>Design & Development by NITESH PANDEY</p>
+      <div class="footer-social" aria-label="Social links">
+        <a
+          class="social-link"
+          href="https://www.linkedin.com/in/nitesh-kumar-pandey-211136260/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.48 1h.02C3.87 1 4.98 2.12 4.98 3.5zM.5 8h4V23h-4V8zm7 0h3.84v2.05h.06c.53-1.01 1.84-2.07 3.8-2.07 4.06 0 4.8 2.67 4.8 6.14V23h-4v-7.58c0-1.81-.03-4.13-2.52-4.13-2.53 0-2.92 1.98-2.92 4v7.71h-4V8z"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+        <a
+          class="social-link"
+          href="https://github.com/niteshkrbgp9-stack"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.43 7.87 10.96.58.1.79-.25.79-.56 0-.28-.01-1.2-.02-2.18-3.2.7-3.88-1.36-3.88-1.36-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.69.08-.69 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.67 1.25 3.32.95.1-.74.4-1.25.73-1.53-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.3 1.18-3.11-.12-.29-.51-1.47.11-3.07 0 0 .97-.31 3.16 1.18a10.9 10.9 0 0 1 5.76 0c2.19-1.5 3.16-1.18 3.16-1.18.63 1.6.24 2.78.12 3.07.74.81 1.18 1.85 1.18 3.11 0 4.43-2.7 5.4-5.27 5.69.41.35.78 1.04.78 2.1 0 1.51-.01 2.72-.01 3.09 0 .31.21.67.8.56A11.52 11.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
